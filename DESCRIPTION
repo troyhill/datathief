@@ -9,9 +9,7 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: Package provides data scraping tools for images where the 
-    underlying data is not readily accessible, such as a screenshot of a 
-    powerpoint slide, an old manuscript, gray literature, and so on.
+Description: Package provides data scraping tools from screenshots or images of data.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
