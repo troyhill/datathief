@@ -1,0 +1,25 @@
+Package: datathief
+Type: Package
+Title: Get Data From Screenshots of Figures.
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Troy", "Hill",
+      email = "Hill.Troy@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Package provides data scraping tools for images where the 
+    underlying data is not readily accessible, such as a screenshot of a 
+    powerpoint slide, an old manuscript, gray literature, and so on.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports: 
+    plyr,
+    png,
+    raster,
+    tcltk,
+    terra,
+    utils
